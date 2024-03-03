@@ -1,0 +1,18 @@
+# iOS and Swift - The Complete iOS App Development Bootcamp
+
+It covers the knowledge, projects, and my own takeaways I learned at The App Brewery's Complete App Development Bootcamp.
+<br>Check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).
+
+
+## Notes
+
+
+
+## Preview
+
+
+Projects / Topics                                                           | Screenshots
+---                                                                         |---
+[Project 1](01-Project1) - *Dicee-App* <br/>                                         <br/><sub> IBActions, IBOutlets, Interface Builder, Xcode Console Testing                  </sub>  |<img width="120"  src="https://github.com/ogulcandeniz-inac/iOS-Swift-Bootcamp/assets/109241786/973e7c23-bdc9-483f-a4f6-57d7603df4f0">|
+[Project 2](02-Project2) - *Xylophone* <br/>                                         <br/><sub> AVFoundation, AVAudioPlayer, The ViewController lifecycle.                      </sub>  |<img width="120"  src="https://github.com/ogulcandeniz-inac/iOS-Swift-Bootcamp/assets/109241786/44d048d5-f898-4975-9445-df64cec0558c">|
+[Project 3](03-Project3) - *EggTimer* <br/>                                          <br/><sub> Timer API, ProgressView, Collection types - Dictionaries                        </sub>  |<img width="120"  src="https://github.com/ogulcandeniz-inac/iOS-Swift-Bootcamp/assets/109241786/2e847010-a44d-4ad0-a276-cbe0e5acd559">|
