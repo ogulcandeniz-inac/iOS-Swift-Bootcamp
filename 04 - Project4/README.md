@@ -20,4 +20,4 @@ This is a companion project to The App Brewery's Complete App Development Bootca
   
 ## Screenshot
 
-<img width="237" alt="EggTimer" src="https://github.com/ogulcandeniz-inac/iOS-Swift-Bootcamp/assets/109241786/b5a6f200-9a55-413e-b217-64b150209ec4">
+<img width="246" alt="Quizzler" src="https://github.com/ogulcandeniz-inac/iOS-Swift-Bootcamp/assets/109241786/24c71e85-6af8-4f98-9f84-e6ef0c761660">
