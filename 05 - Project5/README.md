@@ -15,7 +15,7 @@ The BMI Calculator is an application that helps users calculate their Body Mass 
 
 ## Improvements
 
-* The application has the ability to calculate body mass according to the user's weight and height. It can also give a piece of health advice depending on whether the user has eaten too much pie or needs to eat more pie.
+* The application has the ability to calculate body mass according to the user's weight and height. It can also give a piece of health advice depending on whether the user has eaten too much pie or needs to eat more pie..
 * It has the ability to create multi-screen applications with animated navigation feature.
 * It has the ability to transition by value and transition by reference.
 * It has the ability to use tools such as Stack view and Slider.
