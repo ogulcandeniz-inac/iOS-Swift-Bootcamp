@@ -10,14 +10,14 @@ import Foundation
 
 struct WeatherModel {
     let conditionId: Int
-    let citynmae: String
+    let cityName: String
     let temperature: Double
     
-    var temperatyre: String{
+    var temperatureString: String {
         return String(format: "%.1f", temperature)
     }
     
-    var conditionName: String{
+    var conditionName: String {
         switch conditionId {
         case 200...232:
             return "cloud.bolt"
@@ -27,14 +27,15 @@ struct WeatherModel {
             return "cloud.rain"
         case 600...622:
             return "cloud.snow"
-        case 700...781:
+        case 701...781:
             return "cloud.fog"
         case 800:
             return "sun.max"
-        case 800...884:
+        case 801...804:
             return "cloud.bolt"
         default:
             return "cloud"
         }
     }
+    
 }

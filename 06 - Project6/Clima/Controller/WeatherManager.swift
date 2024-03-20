@@ -1,9 +1,9 @@
 //
-//  WeatherModel.swift
+//  WeatherManager.swift
 //  Clima
 //
-//  Created by Oğulcan Deniz İnaç on 19.03.2024.
-//  Copyright © 2024 App Brewery. All rights reserved.
+//  Created by Angela Yu on 03/09/2019.
+//  Copyright © 2019 App Brewery. All rights reserved.
 //
 
 import Foundation
@@ -15,8 +15,8 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=034972b3c8fff64852583d82438eb931&units=metric"
-
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=e72ca729af228beabd5d20e3b7749713&units=metric"
+    
     var delegate: WeatherManagerDelegate?
     
     func fetchWeather(cityName: String) {
@@ -24,8 +24,8 @@ struct WeatherManager {
         performRequest(with: urlString)
     }
     
-    func fetchWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
-        let urlString = "\(weatherURL)&lat=\(latitude)&lon=\(longitude)"
+    func fetchWeather(latitude: CLLocationDegrees, longitute: CLLocationDegrees) {
+        let urlString = "\(weatherURL)&lat=\(latitude)&lon=\(longitute)"
         performRequest(with: urlString)
     }
     
